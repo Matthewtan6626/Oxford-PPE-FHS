@@ -1,0 +1,112 @@
+\documentclass[10pt]{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[utf8]{inputenc}
+\usepackage[OT1]{fontenc}
+\usepackage{amsfonts, amsmath, amsthm, amssymb}
+\usepackage{listings}
+\usepackage[margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{physics}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, %set true if you want colored links
+    linktoc=all,     %set to all if you want both sections and subsections linked
+    linkcolor=black,  %choose some color if you want links to stand out
+}
+\newcounter{countCode}
+\lstnewenvironment{code} [1][caption=Ponme caption, label=default]{%
+	\renewcommand*{\lstlistingname}{Listado} 
+	\setcounter{lstlisting}{\value{countCode}} 
+	\lstset{ %
+	language=java,
+	basicstyle=\ttfamily\footnotesize,       % the size of the fonts that are used for the code
+	numbers=left,                   % where to put the line-numbers
+	numberstyle=\sc,      % the size of the fonts that are used for the line-numbers
+	stepnumber=1,                   % the step between two line-numbers. 
+	numbersep=5pt,                 % how far the line-numbers are from the code
+	numberstyle=\color{red!50!blue},
+    	backgroundcolor=\color{lightgray!20},
+	rulecolor=\color{blue},
+	keywordstyle=\color{red}\bfseries,
+	showspaces=false,               % show spaces adding particular underscores
+	showstringspaces=false,         % underline spaces within strings
+	showtabs=false,                 % show tabs within strings adding particular underscores
+	frame=single,                   % adds a frame around the code
+	framexleftmargin=0mm,
+	numberblanklines=false,
+	xleftmargin=5pt,
+	breaklines=true,
+	breakatwhitespace=true,
+	breakautoindent=true,
+	captionpos=t,
+	texcl=true,
+	tabsize=2,                      % sets default tabsize to 3 spaces
+	extendedchars=true,
+	inputencoding=utf8, 
+	escapechar=\%,
+	morekeywords={print, println, size, background, strokeWeight, fill, line, rect, ellipse, triangle, arc, save, PI, HALF_PI, QUARTER_PI, TAU, TWO_PI, width, height,},
+	emph=[1]{print,println,}, emphstyle=[1]{\color{blue}}, % Mis palabras clave.
+	emph=[2]{width,height,}, emphstyle=[2]{\bf\color{violet}}, % Mis palabras clave.
+	emph=[3]{PI, HALF_PI, QUARTER_PI, TAU, TWO_PI}, emphstyle=[3]\color{orange!50!violet}, % Mis palabras clave.
+	emph=[4]{line, rect, ellipse, triangle, arc,}, emphstyle=[4]\color{green!70!black}, % Mis palabras clave.
+	%emph=[5]{size, background, strokeWeight, fill,}, emphstyle=[5]{\tt \color{red!30!blue}}, % Mis palabras clave.
+	%emph={[2]sqrt,baset}, emphstyle={[2]\color{blue}}, % f(sqrt(2)), sqrt a nivel 2 se pondrá azul
+	#1}}{\addtocounter{countCode}{1}}
+\title{Core Microeconomics Notes}
+\author{Matthew Tan}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{General Equilibrium}
+
+\section{Welfare Economics and Social Choice}
+
+\section{Applied Welfare: Externalities and Public Goods}
+
+\section{Game Theory}
+
+\section{Industrial Organisation and Competition Policy}
+
+\section{Decisions under Risk}
+
+
+\section{Information Economics}
+
+\section{Technical Appendix: Proofs of Theorems}
+\subsection{Existence Proof of General Equilibrium}
+\subsection{Proof of First Fundamental Welfare Theorem}
+\subsection{Proof of Second Fundamental Welfare Theorem}
+\subsection{Existence Proof of mixed strategy Nash Equilibria in any finite game}
+
+\section{Mathematical Appendix}
+\subsection{Sets and functions}
+\subsection{Multivariate calculus}
+\subsection{Elementary Probability}
+\subsection{Mathematical Theorems for proofs}
+\noindent\textbf{Brouwer's Fixed Point Theorem:} For any continuous function $f$ mapping a nonempty convex set to itself, there exists a point $x_0$ such that $f(x_0) = x_0$. \\
+\textbf{Applications:} Game Theory, General Equilibrium. \\
+
+\noindent\textbf{Kakutani Fixed point theorem:} Let $S$ be a nonempty, compact and convex subset of the Euclidean space $\mathbb{R}^n$. Let $\phi: S \rightarrow 2^S$ be a set-valued function on S with the following properties: \begin{itemize}
+    \item $\phi$ has a closed graph
+    \item $\phi(x)$ is nonempty and convex for all $x\in S$
+\end{itemize} 
+Then $\phi$ has a fixed point.\\
+\textbf{Applications:} General Equilibrium. \\
+
+\noindent\textbf{Hyperplane Separation Theorem:} Let $A$ and $B$ be two disjoint nonempty convex subsets of $\mathbb{R}^n$. Then there exists a nonzero vector $v$ and a real number $c$ such that \begin{equation*}
+    \langle x,v \rangle \ge c \hspace{0.2cm} \text{and} \hspace{0.2cm} \langle y,v \rangle \le c
+\end{equation*}
+for all $x$ in $A$ and $y$ in $B$ i.e. the hyperplane $\langle \cdot, v \rangle = c$ with the normal vector $v$ separates $A$ and $B$. \\
+
+\noindent If both sets are closed, then the separation can be strict, such that \begin{equation*}
+    \langle x,v \rangle > c_1 \hspace{0.2cm} \text{and} \hspace{0.2cm} \langle y,v \rangle < c_2
+\end{equation*} where $c_1>c_2$. \\
+\textbf{Applications:} Second Fundamental Welfare Theorem. 
+
+
+
+\end{document}
