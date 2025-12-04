@@ -3,7 +3,7 @@ I took the following courses -- here are some of my thoughts
 | Subject  | Thoughts |
 |----------|----------|
 | Core Microeconomics   | Honestly its not that easy -- there is a lot of content to be learnt, and additional mathematical knowledge is pretty useful. In particular, learning and understanding the signalling models/Stiglitz-Rothschild models is quite hard |
-| Ethics   |  I hated this course because I don't like the ``methodology" of ethics, which is basically thought experiments. Overall, I found it pretty hard but I think its the easiest philosophy paper      |
+| Ethics   |  I hated this course because I don't like the "methodology" of ethics, which is basically thought experiments. Overall, I found it pretty hard but I think its the easiest philosophy paper      |
 | Knowledge and Reality   | Most of the real and big topics, like knowledge, modality etc are pretty hard. I recommend doing more applied, narrow topics like contextualism, epistemic injustice and metaphysics of race (if taught). These tend to be significantly easier.   |
 | Theory of Politics | Very easy |
 | Quantitative Economics    |  Much harder than I expected, because a lot of the theoretical results are waved away without a thorough proof/explanation. Like Core Micro, a lot to know without a common thread, and taking the time to work through the derivations are useful. |
