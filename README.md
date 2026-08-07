@@ -1,5 +1,9 @@
 # Oxford-PPE-FHS
-I took the following courses -- here are some of my thoughts 
+This is my repository of notes for the Oxford PPE papers I took. I also included some thoughts on each paper. 
+
+**How to Use**
+DO NOT USE for consolidation. My notes are more on the comprehensive end and serve to plug any knowledge gaps and to explicate most results (say, in economics or logic) more fully. You should probably create your own summaries. 
+
 | Subject  | Thoughts |
 |----------|----------|
 | Core Microeconomics   | Honestly its not that easy -- there is a lot of content to be learnt, and mathematical knowledge which you technically are taught is pretty useful (like the Kuhn-Tucker conditions for inequality constraints, in the context of public good optimisation problems). In particular, learning and understanding the signalling models/Stiglitz-Rothschild models is quite hard |
